@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Вячеслав Барсуков — AI-first руководитель и архитектор IT-решений</title>
+  <desc id="desc">Баннер профиля: монограмма ВБ, имя, специализация и ключевые метрики.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0F14"/>
+      <stop offset="1" stop-color="#111820"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="#7EE787" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#7EE787" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#30363D" stroke-width="1" opacity="0.55"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="16" fill="url(#grid)" opacity="0.35"/>
+  <rect width="1200" height="320" rx="16" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="16" fill="none" stroke="#30363D"/>
+
+  <!-- status line -->
+  <rect x="64" y="80" width="6" height="6" fill="#7EE787"/>
+  <text x="82" y="88" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" letter-spacing="2.2" fill="#7EE787">AI-FIRST ARCHITECT</text>
+
+  <!-- monogram -->
+  <text x="64" y="196" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="76" letter-spacing="-2">
+    <tspan fill="#7EE787">&lt;</tspan><tspan fill="#E6EDF3">ВБ</tspan><tspan fill="#7EE787"> /&gt;</tspan>
+  </text>
+
+  <!-- divider -->
+  <line x1="392" y1="118" x2="392" y2="236" stroke="#7EE787" stroke-opacity="0.35"/>
+
+  <!-- name -->
+  <text x="432" y="177" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="600" letter-spacing="-0.5" fill="#E6EDF3">Вячеслав Барсуков</text>
+
+  <!-- role -->
+  <text x="434" y="215" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#8B949E">AI-first руководитель и архитектор IT-решений</text>
+
+  <!-- metrics -->
+  <text x="434" y="262" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14" fill="#8B949E">
+    <tspan fill="#7EE787">15+</tspan><tspan> лет</tspan><tspan fill="#484F58">  ·  </tspan><tspan fill="#7EE787">300+</tspan><tspan> серверов</tspan><tspan fill="#484F58">  ·  </tspan><tspan fill="#7EE787">SLA 99.9%</tspan><tspan fill="#484F58">  ·  </tspan><tspan fill="#7EE787">10</tspan><tspan> CRM с нуля</tspan>
+  </text>
+
+  <!-- mesh motif -->
+  <g stroke="#7EE787" stroke-opacity="0.35" fill="none">
+    <path d="M1012 78 L1076 58 L1144 86 L1120 132 L1046 126 Z"/>
+    <path d="M1076 58 L1120 132" stroke-dasharray="4 5"/>
+    <path d="M1012 78 L1120 132" stroke-dasharray="4 5"/>
+  </g>
+  <g fill="#7EE787">
+    <circle cx="1012" cy="78" r="3.5"/>
+    <circle cx="1076" cy="58" r="2.5" fill-opacity="0.7"/>
+    <circle cx="1144" cy="86" r="2.5" fill-opacity="0.7"/>
+    <circle cx="1120" cy="132" r="3.5"/>
+    <circle cx="1046" cy="126" r="2.5" fill-opacity="0.7"/>
+  </g>
+
+  <!-- pipeline -->
+  <text x="1150" y="288" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" fill="#8B949E" fill-opacity="0.65">spec → code → tests → deploy → observability</text>
+</svg>
